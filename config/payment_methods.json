@@ -1,0 +1,107 @@
+{
+  "payment_methods": [
+    {
+      "name": "CARD",
+      "display_name": {
+        "en": "Bank cards",
+        "fr": "Cartes bancaires"
+      },
+      "description": "Payez avec votre carte bancaire avec RuckPay",
+      "enabled": true
+    },
+    {
+      "name": "PAYPAL",
+      "display_name": "Paypal",
+      "description": "Paiement PayPal avec RuckPay",
+      "enabled": false
+    }, 
+    { 
+      "name": "APPLE_PAY",
+      "display_name": "Apple Pay",
+      "description": "",
+      "enabled": false
+    },
+    {
+      "name": "GOOGLE_PAY",
+      "display_name": "Google Pay",
+      "description": "",
+      "enabled": false
+    },
+    {
+      "name": "GIROPAY",
+      "display_name": "Giropay",
+      "description": "",
+      "enabled": false,
+      "contraints": [
+        {
+          "currency": "EUR",
+          "country": "DE"
+        }
+      ]
+    },
+    {
+      "name": "BANCONTACT",
+      "display_name": "BanContact",
+      "description": "",
+      "enabled": false,
+      "contraints": [
+        {
+          "currency": "EUR",
+          "country": "BE"
+        }
+      ]
+    },
+    {
+      "name": "IDEAL",
+      "display_name": "iDEAL",
+      "description": "",
+      "enabled": false,
+      "contraints": [
+        {
+          "currency": "EUR",
+          "country": "NL"
+        }
+      ]
+    },
+    {
+      "name": "SOFORT",
+      "display_name": "SoFort",
+      "description": "",
+      "enabled": false,
+      "contraints": [
+        {
+          "currency": "EUR",
+          "country": "AT"
+        },
+        {
+          "currency": "EUR",
+          "country": "BE"
+        },
+        {
+          "currency": "EUR",
+          "country": "DE"
+        },
+        {
+          "currency": "EUR",
+          "country": "IT"
+        },
+        {
+          "currency": "EUR",
+          "country": "ES"
+        },
+        {
+          "currency": "CHF",
+          "country": "CH"
+        },
+        {
+          "currency": "EUR",
+          "country": "NL"
+        },
+        {
+          "currency": "GBP",
+          "country": "GB"
+        }
+      ]
+    }
+  ]
+}

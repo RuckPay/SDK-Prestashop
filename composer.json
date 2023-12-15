@@ -1,0 +1,41 @@
+{
+  "author": "RuckPay",
+  "type": "prestashop-module",
+  "license": "Proprietary",
+  "authors": [
+    {
+      "name": "RuckPay"
+    }
+  ],
+  "config": {
+    "platform": {
+      "php": "7.1"
+    },
+    "preferred-install": "dist",
+    "classmap-authoritative": true,
+    "optimize-autoloader": true,
+    "sort-packages": true,
+    "prepend-autoloader": false
+  },
+  "autoload": {
+    "classmap": [
+      "controllers",
+      "ruckpay.php"
+    ],
+    "psr-4": {
+      "RuckPay\\": "src/"
+    }
+  },
+  "scripts": {
+    "set-license-header": [
+      "@php ./vendor/bin/header-stamp --license=\"assets/afl.txt\" --exclude=\".github,vendor\""
+    ]
+  },
+  "require-dev": {
+    "prestashop/php-dev-tools": "~3.0"
+  },
+  "require": {
+    "ramsey/uuid": "^3.9",
+    "ext-json": "*"
+  }
+}

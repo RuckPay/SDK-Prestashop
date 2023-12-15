@@ -1,0 +1,31 @@
+<?php
+
+global $_MODULE;
+$_MODULE = [];
+$_MODULE['<{ruckpay}prestashop>ruckpay_558db25dbd48c37111135fdca3e83556'] = 'Paiements RuckPay';
+$_MODULE['<{ruckpay}prestashop>ruckpay_9dde40e91f922427162a5c9b694025ff'] = 'Encaissez tous vos paiements avec une solution unique partout dans le monde. Grâce à la solution de paiement de RuckPay vous allez améliorer l’expérience d’achat de vos clients et votre taux de conversion grâce à des paiements en ligne simples, rapides et clairs.';
+$_MODULE['<{ruckpay}prestashop>adminconfigureruckpaycontroller_a02758d758e8bec77a33d7f392eb3f8a'] = 'Acune devise n\'a été définie pour ce module.';
+$_MODULE['<{ruckpay}prestashop>adminconfigureruckpaycontroller_462390017ab0938911d2d4e964c0cab7'] = 'Configuration mise à jour avec succès.';
+$_MODULE['<{ruckpay}prestashop>adminconfigureruckpaycontroller_cd3b327d24cd3c5b3a9873b497d2ad60'] = 'Méthodes de paiement mises à jour avec succès.';
+$_MODULE['<{ruckpay}prestashop>validation_1e97d97a923eaddd810e056c828e99ea'] = 'Erreur de paiement';
+$_MODULE['<{ruckpay}prestashop>validation_d07f49d033bb4d2657906f348b5aa448'] = 'Cartes Bancaires (RuckPay)';
+$_MODULE['<{ruckpay}prestashop>configure_a20261dc2c5d94e21cba0ef155532db9'] = 'Configuration RuckPay';
+$_MODULE['<{ruckpay}prestashop>configure_b1dfa0efb5dee5645ae2b9b5e9de6ed6'] = 'Activer les paiements avec RuckPay';
+$_MODULE['<{ruckpay}prestashop>configure_93cba07454f06a4a960172bbd6e2a435'] = 'Oui';
+$_MODULE['<{ruckpay}prestashop>configure_bafd7322c6e97d25b6299b5d6fe8920b'] = 'Non';
+$_MODULE['<{ruckpay}prestashop>configure_650be61892bf690026089544abbd9d26'] = 'Mode';
+$_MODULE['<{ruckpay}prestashop>configure_c33550a3e5e97c7f4bc6552f37e96c97'] = 'Clé API Test';
+$_MODULE['<{ruckpay}prestashop>configure_221660148f9358d6df141d176418e5fa'] = 'Secret API Test';
+$_MODULE['<{ruckpay}prestashop>configure_3d855a86c289a1fea2ee9b992ed58e2f'] = 'Clé API Live';
+$_MODULE['<{ruckpay}prestashop>configure_169871633d47f1e31e5119007214d0d4'] = 'Secret API Live';
+$_MODULE['<{ruckpay}prestashop>configure_c9cc8cce247e49bae79f15173ce97354'] = 'Enregistrer';
+$_MODULE['<{ruckpay}prestashop>configure_af01f8c298aa063d9c7490f00eddd2df'] = 'Méthodes de paiement';
+$_MODULE['<{ruckpay}prestashop>configure_4d3d769b812b6faa6b76e1a8abaece2d'] = 'Actif';
+$_MODULE['<{ruckpay}prestashop>configure_3cab03c00dbd11bc3569afa0748013f0'] = 'Inactif';
+$_MODULE['<{ruckpay}prestashop>displayadminordermainbottom_18c5ea07fc1dbc109eb635831c2ac292'] = 'Ce paiement a été effectué avec RuckPay.';
+$_MODULE['<{ruckpay}prestashop>displayadminordermainbottom_b74fde5265c28d15d32f775d8b38d8f3'] = 'La référence de la transaction est :';
+$_MODULE['<{ruckpay}prestashop>displaypaymentbybinaries_d7467080ec566ee0c6cb59242ee28fa5'] = 'Vous devez accepter les conditions générales avant de procéder au paiement.';
+$_MODULE['<{ruckpay}prestashop>displaypaymentbybinaries_99938b17c91170dfb0c2f3f8bc9f2a85'] = 'Commander';
+$_MODULE['<{ruckpay}prestashop>displaypaymentbybinaries_2c0661a85f32bc69c92f5aac372f6659'] = 'Données de paiement invalides';
+$_MODULE['<{ruckpay}prestashop>displaypaymentbybinaries_ae900727e1de9baf5fa4f0fea441c5c7'] = 'Erreur interne de la plateforme de paiement';
+$_MODULE['<{ruckpay}prestashop>displaypaymentbybinaries_159ad910a90e5b269db02263be5d033e'] = 'Paiement refusé';
