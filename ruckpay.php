@@ -60,7 +60,7 @@ class RuckPay extends PaymentModule
     {
         $this->name = 'ruckpay';
         $this->tab = 'payments_gateways';
-        $this->version = '1.0.0';
+        $this->version = '1.0.1';
         $this->author = 'RuckPay';
         $this->currencies = true;
         $this->currencies_mode = 'checkbox';
