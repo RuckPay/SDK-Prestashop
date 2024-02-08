@@ -92,7 +92,6 @@
             }
         };
 
-        // TODO passer les bonnes valeurs
         this.options = {
             "mode": "{$mode}",
 			"public_key": "{$public_key}",

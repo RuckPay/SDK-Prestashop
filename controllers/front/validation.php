@@ -147,9 +147,6 @@ class RuckPayValidationModuleFrontController extends ModuleFrontController
      */
     private function getOptionName($paymentMethod)
     {
-        // TODO Ajouter les autres méthodes de paiement
-        // TODO Traduire le nom de la méthode de paiement
-
         return $this->l('Bank card (RuckPay)', null, 'en');
     }
 
