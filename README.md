@@ -54,5 +54,5 @@ Go to PrestaShop → Payment → Payment Methods → RUCKPAY → Configure
 
 ![image](https://github.com/RuckPay/SDK-Prestashop/assets/104771160/095795c9-a420-428b-a6fd-278ec6b2cb40)
 
-##Before you go live
+## Before you go live
 * Make sure that your account has been approved (LIVE enabled)
